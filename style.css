@@ -1,0 +1,22 @@
+.plan {
+  width: 960px; 
+  display: flex; 
+}
+.hotel_image {
+    width: 320px;
+}
+.main_image {
+    width: 320px;
+}
+.sub_image {
+    display: flex;
+}
+.sub_image {
+    width: 50px;
+}
+.hotel_caption {
+    width: 300px;
+}
+.hotel_caption {
+        width: 30px;
+}
