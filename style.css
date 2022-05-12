@@ -1,22 +1,28 @@
-.plan {
-  width: 960px; 
-  display: flex; 
+body {
+    background-color: antiquewhite;
+    width: 1200px;
+    padding: ;
+    color: #966111;
+    font-size: 87.5%;
+    line-height: 1.5;
+    }
+header, #container, #item {
+    margin: 0 auto 0 auto;
+    width: 600px;
 }
-.hotel_image {
-    width: 320px;
+h1 {
+    background-position: center;
 }
-.main_image {
-    width: 320px;
-}
-.sub_image {
+.container {
     display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 300px;
+    
 }
-.sub_image {
-    width: 50px;
-}
-.hotel_caption {
+.item {
+    display: inline-block;
     width: 300px;
-}
-.hotel_caption {
-        width: 30px;
+    padding-bottom: 0;
+    border: 1px dotted #3a352d;
 }
