@@ -17,12 +17,16 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    height: 300px;
+    height: 400px;
     
 }
 .item {
     display: inline-block;
     width: 300px;
-    padding-bottom: 0;
+    margin: 10px;
+    padding : 0;
     border: 1px dotted #3a352d;
 }
+ .item img  {
+     width: 200px;
+ }
